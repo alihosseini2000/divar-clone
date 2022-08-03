@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    border-bottom: 1px solid rgba(194, 194, 194, 0.418);
+}
+.logo{
+    width: 56px;
+    height: 48;
+}
+hr{
+    width: 1px;
+    height: 1.5rem;
+    color: black;
+    display: inline-block;
+    background-color: black;
+}
+.fs-6-5{
+    font-size: 12px;
+}
+.fs-7{
+    font-size: 10px;
+}
+.form-control{
+    border: none;
+    width: 100%;
+    max-width: 480px;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-radius: 0%;
+    border-bottom: 1px solid rgba(87, 87, 87, 0.514);
+}
+.btn-danger{
+    background-color: #a62626;
+    border-color: #a62626;
+}
+.btn-danger:focus{
+    box-shadow: none;
+}
