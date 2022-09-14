@@ -71,23 +71,23 @@ const NAvbar = () => {
                         </NavDropdown.Item>
                     </NavDropdown>
                     <div className="d-flex w-100">
-                        <div className="d-flex align-items-center text-muted me-3 w-50">
+                        <div className="d-flex align-items-center text-muted me-3 w-250 w-50">
                             <input className="input-search form-control px-2 fs-6-5 col"/>
                             <AiOutlineSearch className="position-absolute top-2"/>
                         </div>    
                         <div className="me-auto d-flex">
-                            <ButtonNav>
+                            <ButtonNav className="wh-btn">
                                 <BiUser className="fs-5"/>
                                 <span className="pe-2 fs-6-5">دیوار من</span>
                             </ButtonNav>
-                            <ButtonNav>
+                            <ButtonNav className="wh-btn">
                                 <BsChat className="fs-5"/>
                                 <span className="pe-2 fs-6-5">چت</span>
                             </ButtonNav>
-                            <ButtonNav>
+                            <ButtonNav className="wh-btn">
                                 <span className="pe-2 fs-6-5">پشتیبانی</span>
                             </ButtonNav>
-                            <Button className="btn btn-danger fs-6-5 py-2">ثبت آگهی</Button>
+                            <button className="btn-post fs-6 wh-btn my-auto">ثبت آگهی</button>
                         </div>
                     </div>
                 </nav>

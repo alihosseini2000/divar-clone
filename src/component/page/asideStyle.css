@@ -6,5 +6,33 @@
 .side-bar{
     width: 100%;
     max-width: 280px;
+    min-width: 280px;
     direction: rtl;
+}
+.category_btn{
+    text-decoration: none;
+    color: #A1A1A1;
+    font-size: 14px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.category_btn:hover{
+    color: black;
+}
+.filter{
+    height: 1px;
+    width: 90%;
+    color: black;
+}
+.btn-filter{
+    border: none;
+    background-color: transparent;
+}
+.row .col{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+.logo{
+    width: 80px;
 }

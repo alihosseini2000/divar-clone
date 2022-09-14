@@ -33,10 +33,32 @@ hr{
     border-radius: 0%;
     border-bottom: 1px solid rgba(87, 87, 87, 0.514);
 }
-.btn-danger{
+.btn-post{
     background-color: #a62626;
     border-color: #a62626;
+    color: white;
+    border-radius: 5px;
 }
-.btn-danger:focus{
-    box-shadow: none;
+.btn-post:hover{
+    background-color: #BE3737;
+    border-color: #BE3737;
+
+}
+.btn{
+    border: none;
+}
+.btn:hover{
+    background-color: #F5F5F5 !important;
+    border: none;
+    color: black !important;
+}
+.wh-btn{
+    width: 7rem;
+    height: 2.5rem;
+}
+@media only screen and (max-width:992px) {
+    .w-250{
+        width: 300px;
+        max-width: 230px;
+    }
 }
